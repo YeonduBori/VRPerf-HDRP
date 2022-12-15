@@ -587,7 +587,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &606286477
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1592,6 +1592,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1273726874}
+  - component: {fileID: 1273726877}
   - component: {fileID: 1273726876}
   - component: {fileID: 1273726875}
   m_Layer: 0
@@ -1673,7 +1674,16 @@ VisualEffect:
   m_ResourceVersion: 1
   m_PropertySheet:
     m_Float:
-      m_Array: []
+      m_Array:
+      - m_Value: 1
+        m_Name: Set Lifetime
+        m_Overridden: 1
+      - m_Value: 1
+        m_Name: Set Position
+        m_Overridden: 1
+      - m_Value: 1
+        m_Name: Set Force
+        m_Overridden: 1
     m_Vector2f:
       m_Array: []
     m_Vector3f:
@@ -1697,6 +1707,19 @@ VisualEffect:
         m_Overridden: 1
     m_Bool:
       m_Array: []
+--- !u!114 &1273726877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273726873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbc01fb81b3589b46b4e23ddbe84538d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 606286476}
 --- !u!1 &1950549873
 GameObject:
   m_ObjectHideFlags: 0
